@@ -1,6 +1,0 @@
-# Epilogue
-
-
-
-```{bibliography}
-```
