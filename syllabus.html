@@ -50,8 +50,6 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="The Ginsburg Landau theory" href="Ginsburg_Landau.html" />
@@ -130,10 +128,22 @@ const thebe_selector_output = ".output, .cell_output"
    The critical phenomena
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="RG.html">
    Renormalization group
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Similarity_solutions_diffusion_EQ.html">
+     The similarity solutions
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -170,8 +180,8 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal" href="quantum_statistics.html">
    Quantum statistics
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -396,6 +406,11 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#final-projects">
+   Final projects
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#homework-policies">
    Homework policies
   </a>
@@ -410,6 +425,11 @@ title="Print to PDF"
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#textbook">
    Textbook
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prerequisites">
+   Prerequisites
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -433,16 +453,6 @@ title="Print to PDF"
     </a>
    </li>
   </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-to-benefit-from-the-course">
-   How to benefit from the course?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-to-use-this-note">
-   How to use this note?
-  </a>
  </li>
 </ul>
 
@@ -474,6 +484,11 @@ title="Print to PDF"
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#final-projects">
+   Final projects
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#homework-policies">
    Homework policies
   </a>
@@ -488,6 +503,11 @@ title="Print to PDF"
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#textbook">
    Textbook
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prerequisites">
+   Prerequisites
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -512,16 +532,6 @@ title="Print to PDF"
    </li>
   </ul>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-to-benefit-from-the-course">
-   How to benefit from the course?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-to-use-this-note">
-   How to use this note?
-  </a>
- </li>
 </ul>
 
                         </nav>
@@ -537,14 +547,11 @@ title="Print to PDF"
 <section id="basic-information">
 <h2>Basic information<a class="headerlink" href="#basic-information" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
-<li><p><strong>&lt;++&gt;</strong></p></li>
 <li><p>Time: Thursday 13:20-16:20</p></li>
-<li><p>Classroom: Physics building, Room &lt;++&gt;</p></li>
+<li><p>Classroom: Physics building, Room 208</p></li>
 <li><p>Instructor: Yi-Ping Huang</p></li>
 <li><p>Office hours: After the course or by appointment (Online or at Room 517)</p></li>
-<li><p>Teaching assistant: <strong>&lt;++&gt;</strong></p></li>
-<li><p>TA Office hours: &lt;++&gt; &lt;+Mon+&gt;day:<strong>&lt;++&gt;</strong> at Room &lt;++&gt; ( Starting from &lt;++&gt; )</p></li>
-<li><p><strong>Final project presentation date: &lt;++&gt;</strong></p></li>
+<li><p><strong>Final project presentation date: 12/22~1/12</strong></p></li>
 <li><p>The course will be offered in English.</p>
 <ul>
 <li><p>We encourage everyone to interact in English. If some conceptual questions are difficult to be described in English, one can ask the question in Mandarin, and I will translate that into English. If I forgot to do that, please remind me to do so.</p></li>
@@ -562,7 +569,11 @@ title="Print to PDF"
 </section>
 <section id="evaluation">
 <h2>Evaluation:<a class="headerlink" href="#evaluation" title="Permalink to this headline">#</a></h2>
-<p><strong>Homework (50%), Final project (50%)</strong></p>
+<p><strong>Homework (60%), Final project (40%)</strong></p>
+</section>
+<section id="final-projects">
+<h2>Final projects<a class="headerlink" href="#final-projects" title="Permalink to this headline">#</a></h2>
+<p>&lt;+Stuff…+&gt;</p>
 </section>
 <section id="homework-policies">
 <h2>Homework policies<a class="headerlink" href="#homework-policies" title="Permalink to this headline">#</a></h2>
@@ -595,49 +606,30 @@ title="Print to PDF"
 </section>
 <section id="textbook">
 <h2>Textbook<a class="headerlink" href="#textbook" title="Permalink to this headline">#</a></h2>
-<ol class="simple">
-<li><p><em>Statistical Mechanics in a Nutshell</em>, Luca Peliti <span id="id1">[<a class="reference internal" href="biblio.html#id2" title="Luca Peliti. Statistical mechanics in a nutshell. Princeton University Press, 2011.">Pel11</a>]</span>– Formal approach, might be a little bit boring.</p></li>
-<li><p><em>(2nd Edition)Statistical Mechanics: Entropy, Order Parameters, and Complexity: Second Edition (Oxford Master Series in Physics)</em>, James P. Sethna <span id="id2">[<a class="reference internal" href="biblio.html#id3" title="James Sethna. Statistical mechanics: entropy, order parameters, and complexity. Volume 14. Oxford University Press, USA, 2021.">Set21</a>]</span>– More applications of statistical mechanics. When you have the question: why should we study statistical mechanics? You can find various interesting assignments at the end of each chapter.</p></li>
-</ol>
+<p>None</p>
+</section>
+<section id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">#</a></h2>
+<p>Basic knowledge in statistical mechanics (I)</p>
 </section>
 <section id="course-description">
 <h2>Course Description<a class="headerlink" href="#course-description" title="Permalink to this headline">#</a></h2>
-<p>This course will introduce students to one of the pillars of theoretical physics: Statistical Mechanics.
-Statistical mechanics provides a framework to understand and describe all macroscopic systems, from a
-cooling cup of coffee, boiling water to electrons in metals, semiconductors, superconductors, magnets, black
-holes, … just to name a few. Statistical mechanics is a body of knowledge that establishes the relation
-between microscopic properties and macroscopic properties of the system, which is essential from both
-fundamental and application points of view. The course will cover the basic theoretical framework and
-applications(starting from non-interacting systems, classical gas, and quantum gases(fermions and bosons)
-). After the study of non-interacting systems, we will discuss the techniques related to interacting systems.</p>
+<p>We will go beyond the non-interacting systems and study the concept of renormalization group and effective theory. Once we have a complete understanding of the RG. We will study some important models and use them to explore the study of phases of matter in classical and quantum interacting systems.</p>
 </section>
 <section id="references">
 <h2>References<a class="headerlink" href="#references" title="Permalink to this headline">#</a></h2>
 <ol class="simple">
-<li><p><strong>Statistical Mechanics: Volume 5, Landau and Lifshitz</strong> – The classic theoretical physics collection. It’s unfortunate that we cannot discuss with Landau anymore, but his way of thinking is left in the classic textbook series forever. It’s the textbook  we used when I was a graduate student at CU Boulder.</p></li>
-<li><p><strong>Thermodynamics and an introduction to thermostatistics, H. B. Callen</strong> – An excellent textbook that discusses the fundamental principles of thermodynamics.</p></li>
-<li><p><strong>Statistical physics of particles/fields, M. Kardar</strong> – A pair of modern textbooks about statistical physics with detailed discussion.</p></li>
-<li><p><strong>Statistical mechanics, Shang-Keng Ma</strong> – An idiosyncratic textbook that introduces statistical mechanics in the 70’s on <strong>this</strong> campus. (Originally written in Mandarin.) The textbook discusses the fundamentals and applications of statistical mechanics and exposes some of the thorny questions in the study of statistical mechanics that are not discussed in standard textbooks.</p></li>
-<li><p><strong>Statistical mechanics, R. K. Pathria and P. D. Beale</strong> – A relatively formal but solid textbook.</p></li>
-<li><p>Statistical mechanics, K. Huang <a class="reference external" href="http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/102S112">NTU open course</a></p></li>
+<li><p><em>Lectures on phase transitions and the renormalization group</em>, Nigel Goldenfeld <span id="id1">[<a class="reference internal" href="biblio.html#id16" title="Nigel Goldenfeld. Lectures on phase transitions and the renormalization group. CRC Press, 2018.">Gol18</a>]</span></p></li>
+<li><p><em>Principles of condensed matter physics</em>, P. M. Chaikin and T. C. Lubensky <span id="id2">[<a class="reference internal" href="biblio.html#id17" title="Paul M Chaikin and Tom C Lubensky. Principles of condensed matter physics. Cambridge University Press, 2000.">CL00</a>]</span></p></li>
+<li><p><em>Statistical Mechanics in a Nutshell</em>, Luca Peliti <span id="id3">[<a class="reference internal" href="biblio.html#id2" title="Luca Peliti. Statistical mechanics in a nutshell. Princeton University Press, 2011.">Pel11</a>]</span></p></li>
+<li><p><em>(2nd Edition)Statistical Mechanics: Entropy, Order Parameters, and Complexity: Second Edition (Oxford Master Series in Physics)</em>, James P. Sethna <span id="id4">[<a class="reference internal" href="biblio.html#id3" title="James Sethna. Statistical mechanics: entropy, order parameters, and complexity. Volume 14. Oxford University Press, USA, 2021.">Set21</a>]</span></p></li>
 </ol>
 <p>A good reference is the one that you are willing to read.</p>
 </section>
 <section id="outline-of-the-course">
 <h2>Outline of the course<a class="headerlink" href="#outline-of-the-course" title="Permalink to this headline">#</a></h2>
 <ol class="simple">
-<li><p>Motivation and basic mathematical tools for statistical mechanics.</p></li>
-<li><p>Random walks and universality classes</p></li>
-<li><p>Thermodynamics as a phenomenological theory and the fundamental postulates of thermodynamics.</p></li>
-<li><p>The fundamental postulates of statistical mechanics and connection with thermodynamics.</p></li>
-<li><p>Applications of statistical mechanics on non-interacting systems</p>
-<ul class="simple">
-<li><p>two-level system</p></li>
-<li><p>ideal gas model</p></li>
-<li><p>non-interacting boson/fermion</p></li>
-</ul>
-</li>
-<li><p>Interacting systems and mean-field theory</p></li>
+<li><p>Ginsburg-Landau theory</p></li>
 </ol>
 <section id="course-plan-2022-spring">
 <h3>Course plan (2022-spring)<a class="headerlink" href="#course-plan-2022-spring" title="Permalink to this headline">#</a></h3>
@@ -649,7 +641,7 @@ applications(starting from non-interacting systems, classical gas, and quantum g
 </thead>
 <tbody>
 <tr class="row-even"><td class="text-align:left"><p>09.15</p></td>
-<td class="text-align:left"><p>&lt;+Course overview – Basic information, course description, and survey of the background.+&gt;</p></td>
+<td class="text-align:left"><p>Course overview – Basic information, course description, and review of essential physics in statistical mechanics (I).</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>09.22</p></td>
 <td class="text-align:left"><p>&lt;+Introduction – Thermodynamics, statistical mechanics and the concept of emergence. <br /> (<strong>Random walks</strong>, concept of the <strong>scaling invariance</strong>, and the <strong>universality class</strong>.)+&gt;</p></td>
@@ -691,54 +683,20 @@ applications(starting from non-interacting systems, classical gas, and quantum g
 <td class="text-align:left"><p>&lt;+The interacting free systems <br /> (Fermi sea and Bose-Einstein condensation) <br /> Phases and phase transitions <br /> (Motivation of the study of phases and phase transitions.)+&gt;</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>12.22</p></td>
-<td class="text-align:left"><p>&lt;+Phases and phase transitions <br /> (Phases and phase diagram, thermodynamic limit, phase transitions, symmetry and spontaneous symmetry braking (I:Introduction), classical Ising model and the phase diagram <strong>HW5 due</strong>)+&gt;</p></td>
+<td class="text-align:left"><p>Final presentation (1/4)</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>12.29</p></td>
-<td class="text-align:left"><p>&lt;+Phases and phase transitions <br /> ( The heuristic arguments of the phase diagram of Ising model, spontaneous symmetry breaking(II: Analytic property of free energy for finite and thermodynamic system).)+&gt;</p></td>
+<td class="text-align:left"><p>Final presentation (2/4)</p></td>
 </tr>
 <tr class="row-even"><td class="text-align:left"><p>01.05</p></td>
-<td class="text-align:left"><p>&lt;+Phases and phase transitions <br /> ( Spontaneous symmetry breaking(III: Ergodicity breaking), the one-dimensional Ising model and the transfer matrix method, The Weiss mean field theory and the universality class, comparing Ising model and Van der Waals gas model, symmetry and the Ginsburg-Landau theory. <strong>HW6 due</strong>)+&gt;</p></td>
+<td class="text-align:left"><p>Final presentation (3/4)</p></td>
 </tr>
 <tr class="row-odd"><td class="text-align:left"><p>01.12</p></td>
-<td class="text-align:left"><p>&lt;+<strong>Final exam(online)</strong>+&gt;</p></td>
+<td class="text-align:left"><p>Final presentation (4/4)</p></td>
 </tr>
 </tbody>
 </table>
 </section>
-</section>
-<section id="how-to-benefit-from-the-course">
-<h2>How to benefit from the course?<a class="headerlink" href="#how-to-benefit-from-the-course" title="Permalink to this headline">#</a></h2>
-<p>The correct mindset: to pass the course is not difficult; to learn something requires hard work!</p>
-<ul class="simple">
-<li><p>For students who want to work in <em>theoretical physics</em>: The bar for theoretical physics is high. It would help if you tried to learn statistical mechanics by self-studying the subject. Try to self-studying the two textbooks and discuss with classmates, TAs, and me during office hours for those important conceptual questions.</p></li>
-<li><p>The bar is also high for students who want to work in <em>experimental physics</em>: Try to connect statistical mechanics with experimental phenomena that you have learned. I will mention some examples. However, those examples are far from enough to build the physics intuition for an outstanding experimentalist.</p></li>
-<li><p>For students who do not belong to above-mentioned categories: The bar is even higher. Try to find out the possible use of statistical mechanics for the subjects that you are interested in. During the lectures, you might have a feeling why statistical mechanics could have a broad range of applications. If you are interested in X, you can try to google “statistical mechanics and X.” I believe you can find something interesting.</p></li>
-<li><p>The bottom line is: <strong>DO NOT LEARN SUBJECTS BY ATTENDING LECTURES ONLY</strong>. You can become better and better by thinking independently, but not by attending more and more lectures.</p></li>
-</ul>
-</section>
-<section id="how-to-use-this-note">
-<h2>How to use this note?<a class="headerlink" href="#how-to-use-this-note" title="Permalink to this headline">#</a></h2>
-<ol>
-<li><p>I will have a short summary of the key concepts that I hope you learn in each section. After the lecture or reading the section, a simple question is: do I know the meaning of the statement in summary?</p>
-<div class="tip admonition">
-<p class="admonition-title">Summary</p>
-<p>It is important to understand the summary after your finish reading the section or attending the lecture.</p>
-</div>
-</li>
-<li><p>There will be some interesting simple questions that are worth thinking about. It will be a good question to discuss with the TAs during the office hours.</p>
-<div class="tip admonition">
-<p class="admonition-title">What?</p>
-<p>Why is the sky blue?</p>
-</div>
-</li>
-<li><p>There will be problems that are not part of the homework. However, it will be a good exercise to work through it.</p>
-<div class="tip admonition">
-<p class="admonition-title">Exercise</p>
-<p>Proof <span class="math notranslate nohighlight">\(a^2+b^2=c^2\)</span> for a right triangle using dimensional analysis.</p>
-</div>
-</li>
-<li><p>Some of the material will be in the jupyter notebook format. That means you can download the jupyter notebook and run your own simulation.</p></li>
-</ol>
 </section>
 <div class="toctree-wrapper compound">
 </div>

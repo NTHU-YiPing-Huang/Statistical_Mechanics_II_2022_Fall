@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Epilogue &#8212; 2022 Statistical Mechanics (II) - PHYS522000</title>
+    <title>The similarity solutions &#8212; 2022 Statistical Mechanics (II) - PHYS522000</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -50,9 +50,12 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="BEC and superfluid" href="BEC_superfluid.html" />
+    <link rel="next" title="Ising model" href="2D_Ising.html" />
+    <link rel="prev" title="Renormalization group" href="RG.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -117,7 +120,7 @@ const thebe_selector_output = ".output, .cell_output"
   Renormalization group
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="Ginsburg_Landau.html">
    The Ginsburg Landau theory
@@ -128,18 +131,18 @@ const thebe_selector_output = ".output, .cell_output"
    The critical phenomena
   </a>
  </li>
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="RG.html">
    Renormalization group
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
   </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="Similarity_solutions_diffusion_EQ.html">
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
      The similarity solutions
     </a>
    </li>
@@ -175,7 +178,7 @@ const thebe_selector_output = ".output, .cell_output"
   Quantum many-body systems
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="quantum_statistics.html">
    Quantum statistics
@@ -213,8 +216,8 @@ const thebe_selector_output = ".output, .cell_output"
    BEC and superfluid
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="biblio.html">
    Epilogue
   </a>
  </li>
@@ -308,7 +311,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fbiblio.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FSimilarity_solutions_diffusion_EQ.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -336,7 +339,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/biblio.md"
+        <a href="_sources/Similarity_solutions_diffusion_EQ.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -373,23 +376,60 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-diffusion-equation">
+   The diffusion equation
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Epilogue</h1>
+                <h1>The similarity solutions</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-diffusion-equation">
+   The diffusion equation
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -397,33 +437,23 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="epilogue">
-<h1>Epilogue<a class="headerlink" href="#epilogue" title="Permalink to this headline">#</a></h1>
-<div class="docutils container" id="id1">
-<dl class="citation">
-<dt class="label" id="id17"><span class="brackets">CL00</span></dt>
-<dd><p>Paul M Chaikin and Tom C Lubensky. <em>Principles of condensed matter physics</em>. Cambridge University Press, 2000.</p>
-</dd>
-<dt class="label" id="id16"><span class="brackets">Gol18</span></dt>
-<dd><p>Nigel Goldenfeld. <em>Lectures on phase transitions and the renormalization group</em>. CRC Press, 2018.</p>
-</dd>
-<dt class="label" id="id2"><span class="brackets">Pel11</span></dt>
-<dd><p>Luca Peliti. <em>Statistical mechanics in a nutshell</em>. Princeton University Press, 2011.</p>
-</dd>
-<dt class="label" id="id13"><span class="brackets">SLS+21</span></dt>
-<dd><p>KJ Satzinger, Y-J Liu, A Smith, C Knapp, M Newman, C Jones, Z Chen, C Quintana, X Mi, A Dunsworth, and others. Realizing topologically ordered states on a quantum processor. <em>Science</em>, 374(6572):1237–1241, 2021.</p>
-</dd>
-<dt class="label" id="id12"><span class="brackets">SLK+21</span></dt>
-<dd><p>Giulia Semeghini, Harry Levine, Alexander Keesling, Sepehr Ebadi, Tout T Wang, Dolev Bluvstein, Ruben Verresen, Hannes Pichler, Marcin Kalinowski, Rhine Samajdar, and others. Probing topological spin liquids on a programmable quantum simulator. <em>Science</em>, 374(6572):1242–1247, 2021.</p>
-</dd>
-<dt class="label" id="id3"><span class="brackets">Set21</span></dt>
-<dd><p>James Sethna. <em>Statistical mechanics: entropy, order parameters, and complexity</em>. Volume 14. Oxford University Press, USA, 2021.</p>
-</dd>
-<dt class="label" id="id7"><span class="brackets">Sre94</span></dt>
-<dd><p>Mark Srednicki. Chaos and quantum thermalization. <em>arXiv preprint cond-mat/9403051</em>, 1994.</p>
-</dd>
-</dl>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="the-similarity-solutions">
+<h1>The similarity solutions<a class="headerlink" href="#the-similarity-solutions" title="Permalink to this headline">#</a></h1>
+<p>We want to show that the similarity solutions is closely related to the <em>intermediate asymptotic solution of the first kind</em>.</p>
+<section id="the-diffusion-equation">
+<h2>The diffusion equation<a class="headerlink" href="#the-diffusion-equation" title="Permalink to this headline">#</a></h2>
+<p>Consider the one-dimensional diffusion equation:</p>
+<div class="math notranslate nohighlight">
+\[
+ \partial_t u(x,t)=\frac{\kappa}{2} \partial_x^2 u(x,t)
+\]</div>
+<p>with initial condition</p>
+<div class="math notranslate nohighlight">
+\[
+u(x,t=0)=\frac{A_0}{\sqrt{2\pi l^2}} e^{-\frac{x^2}{2l^2}}\text{.}
+\]</div>
+<p>Here, <span class="math notranslate nohighlight">\(A_0\)</span> is the mass which represent the area below <span class="math notranslate nohighlight">\(u(x,t)\)</span>. The mass is a conserved quantity during the evolution governed by the diffusion equation. We need to specify</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -453,12 +483,19 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="BEC_superfluid.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="RG.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">BEC and superfluid</p>
+            <p class="prev-next-title">Renormalization group</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="2D_Ising.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Ising model</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             </footer>

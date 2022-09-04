@@ -3,14 +3,11 @@
 [//]: <> (> 盡信書不如無書。--孟子 道可道，非常道。--老子The quotes above are very elegant descriptions about the attitude of learning. If one completely believe what a book says, it is better not to read any books. Any books should not become an obstacles for thinking. )
 
 ## Basic information
-* **<++>**
 * Time: Thursday 13:20-16:20
-* Classroom: Physics building, Room <++> 
+* Classroom: Physics building, Room 208 
 * Instructor: Yi-Ping Huang
 * Office hours: After the course or by appointment (Online or at Room 517)
-* Teaching assistant: **<++>**
-* TA Office hours: <++> <+Mon+>day:**<++>** at Room <++> ( Starting from <++> )
-* **Final project presentation date: <++>**
+* **Final project presentation date: 12/22~1/12**
 * The course will be offered in English.
 	* We encourage everyone to interact in English. If some conceptual questions are difficult to be described in English, one can ask the question in Mandarin, and I will translate that into English. If I forgot to do that, please remind me to do so.
 * Teaching method: Lectures with live video streaming. 
@@ -21,7 +18,11 @@
 
 ## Evaluation:
 
-**Homework (50%), Final project (50%)**
+**Homework (60%), Final project (40%)**
+
+## Final projects
+
+<+Stuff...+>
 
 ## Homework policies
 
@@ -46,48 +47,35 @@
 	```
 ## Textbook
 
-1. *Statistical Mechanics in a Nutshell*, Luca Peliti {cite:p}`peliti2011statistical`-- Formal approach, might be a little bit boring.
-2. *(2nd Edition)Statistical Mechanics: Entropy, Order Parameters, and Complexity: Second Edition (Oxford Master Series in Physics)*, James P. Sethna {cite:p}`sethna2021statistical`-- More applications of statistical mechanics. When you have the question: why should we study statistical mechanics? You can find various interesting assignments at the end of each chapter.
+None
+
+## Prerequisites
+
+Basic knowledge in statistical mechanics (I)
 
 ## Course Description
-This course will introduce students to one of the pillars of theoretical physics: Statistical Mechanics. 
-Statistical mechanics provides a framework to understand and describe all macroscopic systems, from a 
-cooling cup of coffee, boiling water to electrons in metals, semiconductors, superconductors, magnets, black 
-holes, ... just to name a few. Statistical mechanics is a body of knowledge that establishes the relation 
-between microscopic properties and macroscopic properties of the system, which is essential from both 
-fundamental and application points of view. The course will cover the basic theoretical framework and 
-applications(starting from non-interacting systems, classical gas, and quantum gases(fermions and bosons) 
-). After the study of non-interacting systems, we will discuss the techniques related to interacting systems. 
+
+We will go beyond the non-interacting systems and study the concept of renormalization group and effective theory. Once we have a complete understanding of the RG. We will study some important models and use them to explore the study of phases of matter in classical and quantum interacting systems.
 
 ## References
 
-1. **Statistical Mechanics: Volume 5, Landau and Lifshitz** -- The classic theoretical physics collection. It's unfortunate that we cannot discuss with Landau anymore, but his way of thinking is left in the classic textbook series forever. It's the textbook  we used when I was a graduate student at CU Boulder.
-2. **Thermodynamics and an introduction to thermostatistics, H. B. Callen** -- An excellent textbook that discusses the fundamental principles of thermodynamics.
-3. **Statistical physics of particles/fields, M. Kardar** -- A pair of modern textbooks about statistical physics with detailed discussion.
-4. **Statistical mechanics, Shang-Keng Ma** -- An idiosyncratic textbook that introduces statistical mechanics in the 70's on **this** campus. (Originally written in Mandarin.) The textbook discusses the fundamentals and applications of statistical mechanics and exposes some of the thorny questions in the study of statistical mechanics that are not discussed in standard textbooks.
-5. **Statistical mechanics, R. K. Pathria and P. D. Beale** -- A relatively formal but solid textbook.
-6. Statistical mechanics, K. Huang [NTU open course](http://ocw.aca.ntu.edu.tw/ntu-ocw/ocw/cou/102S112)
+1. *Lectures on phase transitions and the renormalization group*, Nigel Goldenfeld {cite:p}`goldenfeld2018lectures`
+2. *Principles of condensed matter physics*, P. M. Chaikin and T. C. Lubensky {cite:p}`chaikin1995principles`
+3. *Statistical Mechanics in a Nutshell*, Luca Peliti {cite:p}`peliti2011statistical`
+4. *(2nd Edition)Statistical Mechanics: Entropy, Order Parameters, and Complexity: Second Edition (Oxford Master Series in Physics)*, James P. Sethna {cite:p}`sethna2021statistical`
 
 A good reference is the one that you are willing to read.
 
 
 ## Outline of the course
 
-1. Motivation and basic mathematical tools for statistical mechanics.
-2. Random walks and universality classes
-3. Thermodynamics as a phenomenological theory and the fundamental postulates of thermodynamics.
-4. The fundamental postulates of statistical mechanics and connection with thermodynamics.
-5. Applications of statistical mechanics on non-interacting systems
-	* two-level system
-	* ideal gas model
-	* non-interacting boson/fermion
-6. Interacting systems and mean-field theory
+1. Ginsburg-Landau theory
 
 ### Course plan (2022-spring)
 
 | Date   | Contents                                                                                                                                                                                                                                                                                                                                      |
 | :----- | :-------                                                                                                                                                                                                                                                                                                                                      |
-| 09.15  | <+Course overview -- Basic information, course description, and survey of the background.+>                                                                                                                                                                                                                                                   |
+| 09.15  | Course overview -- Basic information, course description, and review of essential physics in statistical mechanics (I).                                                                                                                                                                                                                       |
 | 09.22  | <+Introduction -- Thermodynamics, statistical mechanics and the concept of emergence. <br /> (**Random walks**, concept of the **scaling invariance**, and the **universality class**.)+>                                                                                                                                                     |
 | 09.29  | <+Introduction -- (Continue) Thermodynamics, statistical mechanics and the concept of emergence. <br /> (the **diffusion equation**: microscopic picture and the effective theory.)+>                                                                                                                                                         |
 | 10.06  | <+Introduction -- (Continue) Thermodynamics, statistical mechanics and the concept of emergence. <br /> (Solution of the **diffusion equation** and **basic probability theory**.)+>                                                                                                                                                          |
@@ -101,36 +89,7 @@ A good reference is the one that you are willing to read.
 | 12.01  | <+The interacting free systems <br /> (Concept of Brillouin zone, Phonon and Debye model, photon)+>                                                                                                                                                                                                                                           |
 | 12.08  | <+The interacting free systems <br /> (Fermions and bosons, quantum statistics, Hamiltonian and Hilbert space of many-particle systems.  **HW4 due**)+>                                                                                                                                                                                       |
 | 12.15  | <+The interacting free systems <br /> (Fermi sea and Bose-Einstein condensation) <br /> Phases and phase transitions <br /> (Motivation of the study of phases and phase transitions.)+>                                                                                                                                                      |
-| 12.22  | <+Phases and phase transitions <br /> (Phases and phase diagram, thermodynamic limit, phase transitions, symmetry and spontaneous symmetry braking (I:Introduction), classical Ising model and the phase diagram **HW5 due**)+>                                                                                                               |
-| 12.29  | <+Phases and phase transitions <br /> ( The heuristic arguments of the phase diagram of Ising model, spontaneous symmetry breaking(II: Analytic property of free energy for finite and thermodynamic system).)+>                                                                                                                              |
-| 01.05  | <+Phases and phase transitions <br /> ( Spontaneous symmetry breaking(III: Ergodicity breaking), the one-dimensional Ising model and the transfer matrix method, The Weiss mean field theory and the universality class, comparing Ising model and Van der Waals gas model, symmetry and the Ginsburg-Landau theory. **HW6 due**)+>           |
-| 01.12  | <+**Final exam(online)**+>                                                                                                                                                                                                                                                                                                                    |
-## How to benefit from the course? 
-
-The correct mindset: to pass the course is not difficult; to learn something requires hard work!
-* For students who want to work in *theoretical physics*: The bar for theoretical physics is high. It would help if you tried to learn statistical mechanics by self-studying the subject. Try to self-studying the two textbooks and discuss with classmates, TAs, and me during office hours for those important conceptual questions.
-* The bar is also high for students who want to work in *experimental physics*: Try to connect statistical mechanics with experimental phenomena that you have learned. I will mention some examples. However, those examples are far from enough to build the physics intuition for an outstanding experimentalist.
-* For students who do not belong to above-mentioned categories: The bar is even higher. Try to find out the possible use of statistical mechanics for the subjects that you are interested in. During the lectures, you might have a feeling why statistical mechanics could have a broad range of applications. If you are interested in X, you can try to google "statistical mechanics and X." I believe you can find something interesting.
-* The bottom line is: **DO NOT LEARN SUBJECTS BY ATTENDING LECTURES ONLY**. You can become better and better by thinking independently, but not by attending more and more lectures.
-
-## How to use this note?
-
-1. I will have a short summary of the key concepts that I hope you learn in each section. After the lecture or reading the section, a simple question is: do I know the meaning of the statement in summary?
-	```{admonition} Summary
-	:class: tip
-	It is important to understand the summary after your finish reading the section or attending the lecture.
-	```
-2. There will be some interesting simple questions that are worth thinking about. It will be a good question to discuss with the TAs during the office hours.
-	```{admonition} What?
-	:class: tip
-	Why is the sky blue?
-	```
-3. There will be problems that are not part of the homework. However, it will be a good exercise to work through it.
-	```{admonition} Exercise 
-	:class: tip
-	Proof $a^2+b^2=c^2$ for a right triangle using dimensional analysis.
-	```
-4. Some of the material will be in the jupyter notebook format. That means you can download the jupyter notebook and run your own simulation.
-
-
-
+| 12.22  | Final presentation (1/4)                                                                                                                                                                                                                                                                                                                      |
+| 12.29  | Final presentation (2/4)                                                                                                                                                                                                                                                                                                                      |
+| 01.05  | Final presentation (3/4)                                                                                                                                                                                                                                                                                                                      |
+| 01.12  | Final presentation (4/4)                                                                                                                                                                                                                                                                                                                      |
