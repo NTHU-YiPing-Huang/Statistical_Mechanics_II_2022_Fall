@@ -57,7 +57,7 @@ Basic knowledge in statistical mechanics (I)
 
 ## Course Description
 
-We will go beyond the non-interacting systems and study the concept of renormalization group and effective theory. Once we have a complete understanding of the RG. We will study some important models and use them to explore the study of phases of matter in classical and quantum interacting systems.
+Statistical mechanics (II) will focus on interacting effects in the many-body system. The course will cover topics beyond Statistical mechanics (I) and focus on different phases of matter beyond equilibrium interacting-free systems. The course will start with the discussion of phases of matter using the Ginsburg-Landau theory. After introducing the Ginsburg-Landau theory, we will introduce the spirit and the physical meaning of the renormalization group. Equipped with the renormalization group technique, we will revisit the phases of matter in Fermionic/ Bosonic systems and discuss exotic phases of matter beyond the conventional Ginsburg-Landau paradigm. 
 
 ## References
 
