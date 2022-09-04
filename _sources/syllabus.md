@@ -15,6 +15,8 @@
 	* Course code: please contact the instructor.
 	* Course-related information(*e.g.*, homework) will be posted in the google classroom.
 	* Access to the live video streaming will be provided in the google classroom.
+	
+**<++> means to be updated!**
 
 ## Evaluation:
 
