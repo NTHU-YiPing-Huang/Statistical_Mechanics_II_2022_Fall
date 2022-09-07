@@ -71,7 +71,13 @@ A good reference is the one that you are willing to read.
 
 ## Outline of the course
 
-1. Ginsburg-Landau theory
+```{figure} /images/outline.pdf
+---
+width: 750px
+name: outline-fig
+---
+Outline of the course.
+```
 
 ### Course plan (2022-spring)
 
