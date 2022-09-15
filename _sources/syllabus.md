@@ -24,7 +24,7 @@
 
 ## Final projects
 
-<+Stuff...+>
+[Final project guideline](Final_Project.pdf)
 
 ## Homework policies
 
