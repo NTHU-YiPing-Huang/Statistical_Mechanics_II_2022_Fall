@@ -24,7 +24,7 @@
 
 ## Final projects
 
-[Final project guideline](Final_Project.pdf)
+[Final project guideline](https://hackmd.io/@yihu3230/HkjbMnjIt)
 
 ## Homework policies
 
