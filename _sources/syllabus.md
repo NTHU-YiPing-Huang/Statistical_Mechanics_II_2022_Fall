@@ -16,8 +16,6 @@
 	* Course-related information(*e.g.*, homework) will be posted in the google classroom.
 	* Access to the live video streaming will be provided in the google classroom.
 	
-**<++> means to be updated!**
-
 ## Evaluation:
 
 **Homework (60%), Final project (40%)**
@@ -84,7 +82,7 @@ Outline of the course.
 | Date   | Contents                                                                                                                                                                                                                                                                                                                                      |
 | :----- | :-------                                                                                                                                                                                                                                                                                                                                      |
 | 09.15  | Course overview -- Basic information, course description, and review of essential physics in statistical mechanics (I).                                                                                                                                                                                                                       |
-| 09.22  | <+Introduction -- Thermodynamics, statistical mechanics and the concept of emergence. <br /> (**Random walks**, concept of the **scaling invariance**, and the **universality class**.)+>                                                                                                                                                     |
+| 09.22  | Review of mean field theory: Ising model and the Van der Waals equation. Motivation for a more general framwork: Landau theory. Landau theory: Postulates, discrete and continuous phase transitions in Landau theory, coarse graining and the microscopic meaning of Landau theory.                                                          |
 | 09.29  | <+Introduction -- (Continue) Thermodynamics, statistical mechanics and the concept of emergence. <br /> (the **diffusion equation**: microscopic picture and the effective theory.)+>                                                                                                                                                         |
 | 10.06  | <+Introduction -- (Continue) Thermodynamics, statistical mechanics and the concept of emergence. <br /> (Solution of the **diffusion equation** and **basic probability theory**.)+>                                                                                                                                                          |
 | 10.13  | <+Statistical postulates and review of thermodynamics. <br /> (The ideal gas example and the formal structure of thermodynamics.)+>                                                                                                                                                                                                           |
